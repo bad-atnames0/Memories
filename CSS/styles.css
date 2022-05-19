@@ -65,5 +65,46 @@ body {
     -webkit-text-stroke-width: 1e-11rem;
     text-decoration: underline;
     text-decoration-color: black;
-    
+
+}
+
+
+
+/* Campus Section */
+.campus {
+    text-align: center;
+    margin: 5% 3% 2% 3%;
+}
+
+.campus h3 {
+    font-size: 4.5rem;
+    margin-bottom: 3%;
+    font-family: 'Macondo', cursive;
+}
+
+.campus-img-size {
+    width: 70%;
+    height: 70%;
+    border-radius: 2%;
+}
+
+.img-box {
+    padding: 1% 1% 0 1%;
+}
+
+.campus p {
+    padding: 4%;
+    margin-top: 20px;
+    margin-bottom: 0;
+
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+/* Friends Section */
+.friends {
+    width : 250px;
+    height: 250px;
+    background-color: #a4bdc7;
 }
