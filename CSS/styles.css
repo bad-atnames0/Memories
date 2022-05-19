@@ -96,7 +96,6 @@ body {
     padding: 4%;
     margin-top: 20px;
     margin-bottom: 0;
-
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -104,7 +103,47 @@ body {
 
 /* Friends Section */
 .friends {
-    width : 250px;
-    height: 250px;
     background-color: #a4bdc7;
+    text-align: center;
+}
+
+.friends h4 {
+    text-align: right;
+    display: block;
+    font-size: 3.5rem;
+    padding: 3% 0;
+    margin-right: 4rem;
+    font-family: 'Macondo', cursive;
+}
+
+.friends h2 {
+    text-align: left;
+    display: block;
+    font-size: 7.5rem;
+    margin-left: 6rem;
+    font-family: 'Macondo', cursive;
+}
+
+.friends-cont {
+    margin-top: 5%;
+}
+
+.friends .row {
+    margin-left: 0;
+}
+
+/* bubble styling */
+.bubble {
+    border: 2px solid black;
+    padding: 5%;
+    margin: 5%;
+    margin-left: 10%;
+    border-radius: 100%;
+    font-size: 1.9rem;
+    font-family: 'Grape Nuts', cursive;
+    font-weight: 900;
+}
+
+.bubble:hover {
+    background-color: white;
 }
