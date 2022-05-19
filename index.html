@@ -43,10 +43,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <ul class="navbar-nav  mx-auto">
-        <li class="nav-item"><a href="#" class="nav-link">Campus</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Friends</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Sports</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Ranchi</a></li>
+        <li class="nav-item"><a href="#campus" class="nav-link">Campus</a></li>
+        <li class="nav-item"><a href="#friends" class="nav-link">Friends</a></li>
+        <li class="nav-item"><a href="#sports" class="nav-link">Sports</a></li>
+        <li class="nav-item"><a href="#ranchi" class="nav-link">Ranchi</a></li>
       </ul>
       <button class="btn btn-primary" id="Nav-About">About us</button>
     </div>
@@ -68,17 +68,17 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="2500">
-          <img src="Images/Carasel_two.jpg" class="d-block w-100 intro-img" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="car-head">Visit <a href="https://iiitranchi.ac.in" target="_blank">IIIT Ranchi</a></h5>
-            <p>Official Website of Indian Institute Of Information Technology, Ranchi</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="2500">
           <img src="Images/Carasel_one_cropped.jpg" class="d-block w-100 intro-img" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5 class="car-head">IIIT Ranchi 2021 Batch</h5>
             <p><a target="_blank" href="https://www.youtube.com/watch?v=JgPYGZPwBwE&t=5s">Watch Now!</a></p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2500">
+          <img src="Images/Carasel_two.jpg" class="d-block w-100 intro-img" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="car-head">Visit <a href="https://iiitranchi.ac.in" target="_blank">IIIT Ranchi</a></h5>
+            <p>Official Website of Indian Institute Of Information Technology, Ranchi</p>
           </div>
         </div>
         <div class="carousel-item">
@@ -107,7 +107,7 @@
   <!-- CAMPUS SECTION -->
 
 
-  <div class="campus">
+  <div class="campus" id="campus">
     <h3>Campus</h3>
     <div class="row">
       <div class="img-box col col-md-4">
@@ -129,18 +129,17 @@
 
 
   <!-- FRIENDS SECTION -->
-  <div class="friends">
+
+
+  <div class="friends" id="friends">
     <h4>The Wall</h4>
-
-
-
     <div class="row">
-      <div class="col">
+      <div class="col friends-col">
         <h2>We.</h2>
         <h2>Build.</h2>
         <h2>Memories.</h2>
       </div>
-      <div class="col">
+      <div class="col friends-col">
         <div class="friends-cont">
           <div class="row">
             <div class="col">
@@ -167,9 +166,9 @@
               </div>
               <div class="col">
                 <div class="bubble bubble4">
-                  "Full support"
+                  "padhenge DSA kal se"
                   <br>
-                  <span>...DSA</span>
+                  <span>...Mrinmohan</span>
                 </div>
               </div>
             </div>
@@ -177,7 +176,77 @@
         </div>
       </div>
     </div>
+  </div>
 
+
+
+  <!-- SPORTS SECTION -->
+
+
+  <div class="sports" id="sports">
+    <h2>Sports</h2>
+    <div class="row sports-row">
+      <div class="col col-md-3">
+        <img class="sports-img" src="Images/sports1.jpeg" alt="">
+      </div>
+      <div class="col col-md-9">
+        <p class="sports-p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat totam consectetur
+          voluptate corrupti, amet
+          quas. Est accusantium dignissimos omnis eum?</p>
+      </div>
+    </div>
+    <div class="row sports-row">
+      <div class="col col-md-9">
+        <p class="sports-p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat totam consectetur
+          voluptate corrupti, amet
+          quas. Est accusantium dignissimos omnis eum?</p>
+      </div>
+      <div class="col col-md-3">
+        <img class="sports-img" src="Images/sports1.jpeg" alt="">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- RANCHI SECTION -->
+
+
+
+  <div class="ranchi" id="ranchi">
+    <h2>Ranchi</h2>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images/ranchi5.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/ranchi2.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/ranchi1.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/ranchi4.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/ranchi3.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
 
 
 </body>
