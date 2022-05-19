@@ -1,5 +1,5 @@
 /* HTML */
-body{
+body {
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -20,13 +20,14 @@ body{
 
 .nav-link {
     font-weight: 200;
-    margin : 0 -81%;
+    margin: 0 -81%;
     font-size: 1.3rem;
 }
 
 #Nav-About {
     border: 1px solid white !important;
 }
+
 #Nav-About:hover {
     background-color: white;
     color: black;
@@ -43,7 +44,26 @@ body{
 
 .carousel-caption {
     color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1e-11rem;
+    font-weight: 600;
+    font-size: 1.8rem;
 }
 
+.car-head {
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1e-11rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
 
-
+.carousel-caption a {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1e-11rem;
+    text-decoration: underline;
+    text-decoration-color: black;
+    
+}
