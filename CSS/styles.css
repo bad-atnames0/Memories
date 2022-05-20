@@ -2,9 +2,12 @@
 body {
     font-family: 'Ubuntu', sans-serif;
 }
- *{
-     overflow-x: hidden;
- }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 
@@ -17,7 +20,7 @@ body {
 }
 
 .btn {
-    margin-right: 3.5rem;
+    margin-right: 30px;
     background-color: black;
 }
 
@@ -28,9 +31,9 @@ body {
     padding: 0 5%;
 }
 
-.navbar-nav {
-    margin: 0 23%;
-}
+/* .navbar-nav { */
+/* margin: 0 23%; */
+/* } */
 
 #Nav-About {
     border: 1px solid white !important;
@@ -238,19 +241,77 @@ body {
 }
 
 .fsec img {
-    margin : 2% 2%;
+    margin: 2% 2%;
 }
 
 
 /* copyright section  */
-footer{
+footer {
     margin-top: 1%;
 }
-footer h5{
+
+footer h5 {
     font-size: 1rem;
     color: white;
     text-align: center;
     padding: 1%;
-    
+
 }
 
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width : 853px) and (min-width : 758px) {
+    .nav-link {
+        font-weight: 200;
+        font-size: 0.9rem;
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width : 764px) {
+    .campus p {
+        padding: 4%;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 0.6rem;
+    }
+}
+
+
+@media screen and (max-width : 454px) {
+    .nav-logo {
+        height: 2.1rem;
+        width: 11rem;
+    }
+}
+
+
+@media screen and (max-width : 500px) {
+    .sports p {
+        font-size: 1rem;
+        font-family: 'Titillium Web', sans-serif;
+    }
+}
+
+@media screen and (max-width : 590px) {
+    .friends h2 {
+        text-align: left;
+        display: block;
+        font-size: 3.5rem;
+        margin-left: 1rem;
+        font-family: 'Macondo', cursive;
+    }
+    .bubble {
+        border: 2px solid black;
+        padding: 5%;
+        margin: 5%;
+        margin-left: 10%;
+        border-radius: 100%;
+        font-size: 0.9rem;
+        font-family: 'Grape Nuts', cursive;
+        font-weight: 900;
+    }
+}
