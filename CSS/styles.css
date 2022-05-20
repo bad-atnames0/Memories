@@ -2,6 +2,9 @@
 body {
     font-family: 'Ubuntu', sans-serif;
 }
+ *{
+     overflow-x: hidden;
+ }
 
 
 
@@ -20,8 +23,13 @@ body {
 
 .nav-link {
     font-weight: 200;
-    margin: 0 -81%;
+    /* margin: 0 -23%; */
     font-size: 1.3rem;
+    padding: 0 5%;
+}
+
+.navbar-nav {
+    margin: 0 23%;
 }
 
 #Nav-About {
@@ -203,6 +211,10 @@ body {
     font-family: 'Macondo', cursive;
 }
 
-.carousel-item img {
-    height: 42rem;
+.ranchi video {
+    height: 550px;
+    width: 304px;
+    border-radius: 5%;
+    padding-bottom: 10%;
 }
+
